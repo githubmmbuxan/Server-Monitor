@@ -27,6 +27,6 @@ class TopTasks extends TopAbstract
      */
     protected function parseExp(): string
     {
-        return '/Tasks: ([0-9]+) total,\s+([0-9]+) running,\s+([0-9]+) sleeping,\s+([0-9]+) stopped,\s+([0-9]+) zombie/';
+        return '/Tasks:\s*([0-9]+)\s+total,\s*([0-9]+)\s+running,\s*([0-9]+)\s+sleeping,\s*([0-9]+)\s+stopped,\s*([0-9]+)\s+zombie/im';
     }
 }
