@@ -1,5 +1,8 @@
 #!/bin/bash
 
+export LC_ALL=C
+export LANG=C
+
 for cmd in jq curl top df nproc; do
   if [ "$(command -v $cmd)" == "" ]; then
     echo "$cmd command not found"
