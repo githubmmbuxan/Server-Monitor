@@ -66,8 +66,7 @@ charts.push({
                 },
 
                 y: {
-                    min: 0,
-                    max: 100
+                    min: 0
                 }
             }
         }
